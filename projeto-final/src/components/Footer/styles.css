@@ -1,0 +1,144 @@
+.footer-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.footer {
+    background-color: #71e6ee ;
+    
+}
+
+.footer-1 {
+    display: flex;
+}
+
+.text-footer {
+    font-size: 0.875rem;
+    line-height: 18px;
+    width: 100%;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    text-align: justify;
+    margin-left: 50px;
+    
+    margin-bottom: 60px;
+}
+
+.footer-adote {
+    padding-left: 90px;
+    padding-top: 50px;
+}
+
+p {
+    max-width: 291px;
+    
+}
+
+.item-footer {
+    width: 60%;
+    padding-left: 100px;
+    padding: 70px;
+    margin-top: 50px;
+    position: relative;
+    left: 250px;
+    
+   
+}
+.links_footer {
+     color: black;
+}
+
+.item-footer p {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: #074f79;
+    
+}
+
+.item-footer ul {
+    list-style: none;
+    margin-top: 1.5rem;
+    
+}
+
+.item-footer ul li {
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+
+.item-footer ul li a {
+    color: #074d52(3, 3, 3);
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 18px;
+    transition: all 0.4s ease 0s;
+}
+
+.redes-sociais {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: #074d52;
+    margin-top: 110px;
+    padding-right: 90px;
+}
+
+.logo_insta {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    
+   
+}
+
+.logo_facebook {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+   
+}
+
+
+.footer-2{
+    position: relative;
+    top: 10px;
+    background-color: #085d63;
+    color: white;
+    padding: 0;
+    bottom: 0;
+    
+}
+.rodape {
+    font-size: 13px;
+    padding-left: 40px;
+    white-space: nowrap;
+    height: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text {
+    margin-top: 0.5%;
+    position: relative;
+}
+
+.desenvolvido-por {
+    position: relative;
+    left: 55%;
+    margin-top: 0.5%;
+    
+}
+
+.desenvolvido-por a {
+    color: white;
+}

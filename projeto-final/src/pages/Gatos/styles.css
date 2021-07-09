@@ -1,0 +1,35 @@
+.titulo {
+    padding: 50px;
+    text-align: center;
+}
+
+.images {
+    width: 250px;
+    height: 150px;
+}
+
+
+.personagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+.persos {
+    margin: 30px;
+}
+
+.botao {
+    background-color: #074f79;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
