@@ -46,9 +46,52 @@
 }
 
 @media (max-width:768px){
-    .menu {
-        margin: 2rem;
-        display: flex;
-        justify-content: flex-start;
+
+   .menu{
+       position: relative;
+   }
+    .img-adote {
+        width: 120px;
+        position: relative;
+        right: 10px;
+        
     }
+
+    .menu ul {
+        display: flex;
+    }
+
+    .menu li {
+        list-style: none;
+        text-align: right;
+        position: relative;
+        left: -40px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+    @media screen and (max-width:365px){
+
+        .img-adote {
+            width: 120px;
+            position: relative;
+            left: -10px;
+            
+        }
+    
+        .menu {
+            position: absolute;
+            
+        }
+
+        .menu li {
+            display: block;
+            
+        }
+
+        .menu ul {
+            display: block;
+            right: -30px;
+            position: relative;
+        }
 }

@@ -44,3 +44,13 @@
     bottom:150px;
 
     }
+
+@media (max-width:768px) {
+
+.text-doacao {
+    margin-right: 50px ;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+}

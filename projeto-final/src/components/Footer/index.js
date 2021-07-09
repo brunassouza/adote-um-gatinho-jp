@@ -7,7 +7,8 @@ import './styles.css'
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <>
+        <footer>
             <section className="footer-1">
         <div>
             <div className="footer-adote">
@@ -48,6 +49,7 @@ const Footer = () => {
     
         </div>
         </section>
+        </footer>
         <section className="footer-2">
         <div className="rodape">
             <p className="text">
@@ -58,7 +60,7 @@ const Footer = () => {
             </p>
         </div>
         </section>
-        </footer>
+        </>
          
 
         

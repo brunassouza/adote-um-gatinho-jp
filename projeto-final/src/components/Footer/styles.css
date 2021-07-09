@@ -3,7 +3,7 @@
     height: 150px;
 }
 
-.footer {
+footer {
     background-color: #71e6ee ;
     
 }
@@ -109,7 +109,7 @@ p {
 
 .footer-2{
     position: relative;
-    top: 10px;
+    top: 0px;
     background-color: #085d63;
     color: white;
     padding: 0;
@@ -141,4 +141,86 @@ p {
 
 .desenvolvido-por a {
     color: white;
+}
+
+@media (max-width:768px) {
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .footer-1 {
+        display: block;
+    }
+    
+    .text-footer {
+        width: 410px;
+        text-align: center;
+    }
+    
+    
+    p {
+        max-width: 291px;
+        
+    }
+    
+    .redes-sociais {
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 23px;
+        letter-spacing: 0px;
+        color: #074d52;
+        position: relative;
+        text-align: center;
+        top: -90px;
+        left: 14%;
+    }
+
+    .logo_insta {
+        position: relative;
+        left: -10%;
+    }
+
+    .logo_facebook {
+        position: relative;
+        left: -5%;
+    }
+
+    .item-footer {
+        position: relative;
+        text-align: center;
+        left: 80px;
+
+    }
+    
+    .footer-logo {
+        margin-left: 70px;
+    }
+
+    .text{
+        font-size: 8px;
+    }
+
+    .desenvolvido-por {
+        font-size: 8px;
+        left: 0px;
+    }
+
+    .rodape {
+        display: block;
+        align-items: center;
+        
+    }
+
+    
+    .footer-1 {
+        height: 900px;
+    }
+
+    .footer-2 {
+        top: -10px;
+    }
 }

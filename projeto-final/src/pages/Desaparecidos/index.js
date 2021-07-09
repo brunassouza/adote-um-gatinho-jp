@@ -6,12 +6,12 @@ import Footer from '../../components/Footer'
 import './styles.css'
 
 const Desaparecidos = () => {
-    const [personagens, setPersonagem] = useState([]) //renderiza os personagens na tela
+    const [cats, setCat] = useState([])
 
 useEffect(()=> {
     fetch('https://my-json-server.typicode.com/brunassouza/api-gatos-desaparecidos/cards')
     .then(resposta => resposta.json())
-    .then(dados => setPersonagem(dados))
+    .then(dados => setCat(dados))
 
 },[])
 
@@ -25,14 +25,14 @@ return (
         </h1>
         </div>
 
-        <ul className="personagens">
-    {personagens.map(personagem => {
-        return <li className="persos">
+        <ul className="cats">
+    {cats.map(gato => {
+        return <li className="gato">
         
-        <img className="images" src={personagem.url} alt={personagem.Nome}/>
-        <p> Nome: {personagem.Nome} </p>
-        <p> Telefone para contato: {personagem.tel} </p>
-        <p> Mais informações: {personagem.infos} </p>
+        <img className="images" src={gato.url} alt={gato.Nome}/>
+        <p> Nome: {gato.Nome} </p>
+        <p> Telefone para contato: {gato.tel} </p>
+        <p> Mais informações: {gato.infos} </p>
 
         </li>
     })} </ul>

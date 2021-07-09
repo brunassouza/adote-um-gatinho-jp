@@ -30,7 +30,7 @@ return (
         return <li className="persos">
         
         <img className="images" src={personagem.url} alt={personagem.Nome}/>
-        <p> Nome: {personagem.Nome} </p>
+        <p> Nome:  {personagem.Nome} </p>
         <p> Mais informações: {personagem.infos} </p>
         {/* <button className="botao">QUERO ADOTAR</button>
         <form className="botao" action="../formulario">

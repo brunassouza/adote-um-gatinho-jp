@@ -29,6 +29,8 @@ h1 {
 
 .clique-no {
     font-size: 18px;
+    text-align: center;
+    align-items: center;
 }
 
 .retangulo {
@@ -41,7 +43,7 @@ h1 {
     
 }
 
-a {
+.botao_quero {
     text-decoration: none;
     color: white;
 }
@@ -54,3 +56,24 @@ a {
     position: relative;
     top: 76px;
 }
+
+@media (max-width:768px){
+
+    .criterios-pai {
+        display: block;
+        align-items: center;
+    }
+
+    .cat {
+        height: 250px;
+        display: block;
+        position: relative;
+        right: -80px;
+        top: 70px;
+    }
+
+    .retangulo {
+        margin-left: 220px;
+        border-radius: 30px;
+    }
+}   
