@@ -36,7 +36,7 @@ return (
         <form className="botao" action="../formulario">
     <input type="submit" value="Go to Google" />
 </form> */}
-        <a className="botao" href="../formulario">QUERO ADOTAR</a>
+        <a className="botao" href="../formulario" rel= "noreferrer">QUERO ADOTAR</a>
         </li>
         
     })}

@@ -55,7 +55,7 @@ return (
         </h1>
 
         <div className="retangulo">
-            <a className="botao_quero" href='https://docs.google.com/forms/d/e/1FAIpQLScX2pYLK6yAEq0SIxT13jVR8sTR7g1EchWhypY7K9mAxIM7gA/viewform' target="_blank">
+            <a className="botao_quero" href='https://docs.google.com/forms/d/e/1FAIpQLScX2pYLK6yAEq0SIxT13jVR8sTR7g1EchWhypY7K9mAxIM7gA/viewform' target="_blank" rel= "noreferrer">
                 QUERO ADOTAR
             </a>
 
