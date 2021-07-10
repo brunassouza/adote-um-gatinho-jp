@@ -12,7 +12,7 @@
 }
 
 .header {
-    background: #085d63;
+    background: #6e2d08;
 }
 .texto-cat {
     position: absolute;
@@ -32,6 +32,6 @@
 }
 
 .gatos-desaparecidos {
-    border: #067da1 solid 5px;
-    background-color: #067da1;
+    border: #d1a78f solid 5px;
+    background-color: #d1a78f;
 }

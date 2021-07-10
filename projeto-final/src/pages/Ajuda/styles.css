@@ -7,11 +7,12 @@
 }
 
 .contas {
-    border: #B7E4FE solid 10px;
-    background-color: #B7E4FE;
+    border: #753612 solid 10px;
+    background-color: #753612;
     margin: 70px;
     bottom: 90px;
     position: relative;
+    color: white;
     
 }
 

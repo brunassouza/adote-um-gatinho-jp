@@ -1,7 +1,7 @@
 .criterios {
     margin: 30px;
-    border:  rgb(177, 177, 209) solid 5px;
-    background-color: rgb(177, 177, 209);
+    border: #d1a78f solid 5px;
+    background-color: #d1a78f;
 }
 
 .criterios-pai {
@@ -34,10 +34,10 @@ h1 {
 }
 
 .retangulo {
-    border: gray solid 5px;
-    background-color: gray;
+    border:#d1a78f solid 5px;
+    background-color:#d1a78f;
     max-width: 25vh;
-    margin-left: 75vh;
+    margin-left: 90vh;
     position: relative;
     bottom: -19px;
     

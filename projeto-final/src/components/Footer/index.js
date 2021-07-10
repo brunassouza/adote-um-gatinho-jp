@@ -42,10 +42,13 @@ const Footer = () => {
 
         <div className="redes-sociais">
             <p>Acompanhe nas redes sociais</p>
-        
-                <img className="logo_insta" src="https://flysilverwing.com/uploads-ssl.webflow.com/5e25a624c1ca1d23b4475ef1/5e25a624c1ca1d7e06475f67_Instagram_Logo.svg" alt="logo instagram"/>
-    
-                <img className="logo_facebook" src="https://toppng.com/public/uploads/thumbnail/facebook-button-circle-fb-icon-white-115629275500ovp1ilugo.png" alt="logo linkedin"/>
+            <Link className="link_insta" to='https://www.instagram.com/adoteumgatinhojp/'>
+                <img className="logo_insta" src="https://image.flaticon.com/icons/png/512/1400/1400829.png" alt="logo instagram"/>
+                </Link>
+
+                <Link className="link_insta" to='https://www.facebook.com/adoteumgatinhojp/'>
+                <img className="logo_facebook" src="https://image.flaticon.com/icons/png/512/733/733603.png" alt="logo facebook"/>
+                </Link>
     
         </div>
         </section>

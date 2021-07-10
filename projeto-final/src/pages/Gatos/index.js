@@ -6,12 +6,12 @@ import Footer from '../../components/Footer'
 import './styles.css'
 
 const Gatos = () => {
-    const [personagens, setPersonagem] = useState([]) //renderiza os personagens na tela
+    const [cats, setCat] = useState([]) //renderiza os personagens na tela
 
 useEffect(()=> {
     fetch('https://my-json-server.typicode.com/brunassouza/api-gatos-disponiveis/cards')
     .then(resposta => resposta.json())
-    .then(dados => setPersonagem(dados))
+    .then(dados => setCat(dados))
 
 },[])
 
@@ -25,13 +25,13 @@ return (
         </h1>
         </div>
         
-        <ul className="personagens">
-    {personagens.map(personagem => {
-        return <li className="persos">
+        <ul className="catss">
+    {cats.map(gato => {
+        return <li className="gatos">
         
-        <img className="images" src={personagem.url} alt={personagem.Nome}/>
-        <p> Nome:  {personagem.Nome} </p>
-        <p> Mais informações: {personagem.infos} </p>
+        <img className="images" src={gato.url} alt={gato.Nome}/>
+        <p> Nome:  {gato.Nome} </p>
+        <p> Mais informações: {gato.infos} </p>
         {/* <button className="botao">QUERO ADOTAR</button>
         <form className="botao" action="../formulario">
     <input type="submit" value="Go to Google" />

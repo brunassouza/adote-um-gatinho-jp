@@ -10,7 +10,7 @@
 }
 
 
-.personagens {
+.catss {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -19,18 +19,18 @@
 
 }
 
-.persos {
+.gatos {
     margin: 30px;
     border-radius: 30px;
-    border: 4pt solid #b5d6e7;
-    background-color: #b5d6e7 ;
+    border: 4pt solid #b66332;
+    background-color: #FFD6BE ;
     height: 500px;
     width: 300px;
     text-align: center;
 }
 
 .botao {
-    background-color: #074f79;
+    background-color: #b66332;
     border: none;
     color: white;
     padding: 15px 32px;
